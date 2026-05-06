@@ -1,0 +1,10 @@
+{
+    "required": true,
+    "package": "clared.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "refmap": "clared-refmap.json",
+    "client": ["TitleScreenMixin"],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
