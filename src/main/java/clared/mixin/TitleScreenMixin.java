@@ -19,9 +19,9 @@ public abstract class TitleScreenMixin extends Screen {
 
     @Inject(method = "render", at = @At("HEAD"), cancellable = true)
     public void onRender(
-            GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTick, CallbackInfo info) {
+            GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTick, CallbackInfo ci) {
         this.renderPanorama(guiGraphics, partialTick);
         super.render(guiGraphics, mouseX, mouseY, partialTick);
-        info.cancel();
+        ci.cancel();
     }
 }

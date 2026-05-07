@@ -3,7 +3,7 @@
     "package": "clared.mixin",
     "compatibilityLevel": "JAVA_21",
     "refmap": "clared-refmap.json",
-    "client": ["TitleScreenMixin"],
+    "client": ["TitleScreenMixin", "RecipeBookComponentMixin"],
     "injectors": {
         "defaultRequire": 1
     }

@@ -3,7 +3,7 @@
     "id": "clared",
     "version": "${version}",
     "name": "Clared",
-    "description": "Cleans up the title screen",
+    "description": "Cleans up the title screen and prevents recipe book shift.",
     "authors": ["lowiro"],
     "contact": {},
     "license": "MIT",

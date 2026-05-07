@@ -1,6 +1,6 @@
 # Clared
 
-Small mod to clean up Minecraft's title screen.
+Small mod to clean up Minecraft's title screen and prevent recipe book shift.
 
 #### Notes
 
